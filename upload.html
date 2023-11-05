@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fraud Detection Form</title>
+  <link rel="stylesheet" href="upload.css">
+</head>
+<body>
+
+<form id="fraudForm">
+  <input type="number" id="step" name="step" placeholder="Step" required><br>
+  <input type="number" id="amount" name="amount" placeholder="Amount" required><br>
+  <input type="number" id="oldbalanceOrg" name="oldbalanceOrg" placeholder="Old Balance Org" required><br>
+  <input type="number" id="newbalanceOrig" name="newbalanceOrig" placeholder="New Balance Orig" required><br>
+  <input type="number" id="oldbalanceDest" name="oldbalanceDest" placeholder="Old Balance Dest" required><br>
+  <input type="number" id="newbalanceDest" name="newbalanceDest" placeholder="New Balance Dest" required><br>
+
+  <select name="type" id="type" required>
+    <option value="PAYMENT">PAYMENT</option>
+    <option value="TRANSFER">TRANSFER</option>
+    <option value="CASH_OUT">CASH OUT</option>
+    <option value="DEBIT">DEBIT</option>
+    <option value="CASH_IN">CASH IN</option>
+  </select><br>
+
+  <button type="submit">Check for Fraud</button>
+</form>
+
+<div id="result"></div>
+
+<script src="upload.js"></script>
+
+</body>
+</html>

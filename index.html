@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraud Detection System</title>
+    <style>
+        /* Basic Reset */
+        body, h1, h2, h3, p, figure, figcaption {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Setting up the font */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            background: #fff;
+            padding: 1rem 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        header img {
+            max-width: 180px;
+        }
+
+        /* Navigation */
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: #fff;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            color: #f0ad4e;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: #f0ad4e;
+            color: #fff;
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        /* About Section */
+        .about {
+            background: #fff;
+            padding: 2rem;
+            color: #333;
+            text-align: center;
+        }
+
+        /* Features Section */
+        .features {
+            background: #ffefdb; /* Light yellow background */
+            padding: 2rem;
+        }
+
+        .feature-item {
+            margin-bottom: 1rem;
+        }
+
+        .feature-item h3 {
+            color: #f0ad4e;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Testimonials Section */
+        .testimonials {
+            background: #fff;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        footer p {
+            margin-bottom: 0;
+        }
+
+        header img {
+            width: auto;  /* Adjusts automatically to the height */
+            height: 50px; /* You can set this to the desired value */
+            max-width: 100%; /* Ensures the image is not bigger than its parent element */
+            padding: 5px; /* Optional: adds some space around the image */
+        }
+
+
+        /* Media Queries */
+        @media (max-width: 600px) {
+            nav ul {
+                text-align: center;
+            }
+
+            nav ul li {
+                display: block;
+                margin-bottom: 0.5rem;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .cta-button {
+                padding: 0.5rem 1rem;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="img\logo.png" alt="Company Logo" style="max-width: 180px;"> <!-- Inline CSS for logo size -->
+        <nav>
+            <ul>
+                <li><a href="javascript:window.location.href=window.location.href">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+<main>
+    <section class="hero">
+        <h1>Welcome to Our Fraud Detection System</h1>
+        <p>Utilizing advanced AI to protect your transactions in real-time.</p>
+        <a href="upload.html" class="cta-button">Let's Start</a>
+    </section>
+
+    <section class="about">
+        <h2>About Our System</h2>
+        <p>Welcome to our AI-Powered Fraud Detection Suite, the next generation in safeguarding your financial transactions against fraud. This cutting-edge application utilizes state-of-the-art machine learning algorithms to meticulously scan, analyze, and flag any irregularities that could indicate fraudulent activity.</p>
+    </section>
+
+    <section class="features">
+        <div class="feature-item">
+            <h3>Upload Section</h3>
+            <p>Users can upload transaction data in various formats. The AI then processes this data in real-time, applying advanced analytics to detect suspicious activities.</p>
+        </div>
+        <div class="feature-item">
+            <h3>User-Friendly Interface</h3>
+            <p>Our system is designed with a focus on user experience, making it easy for you to manage and monitor your accounts.</p>
+        </div>
+        <div class="feature-item">
+            <h3>History Section</h3>
+            <p>This area provides users with a log of all transactions that have been processed, including those marked as fraudulent, approved, or pending review, facilitating audits and deeper analysis.</p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2023 Fraud Detection System. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+

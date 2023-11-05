@@ -1,0 +1,53 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* White background */
+  }
+  
+  form {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fefbd8; /* Soft yellow background */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 8px;
+  }
+  
+  form input[type="number"],
+  form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* So width includes padding */
+  }
+  
+  form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    color: #333;
+    background-color: #ffd966; /* Yellow button */
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  form button:hover {
+    background-color: #ffcc00; /* Darker yellow on hover */
+  }
+  
+  #result {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  /* Add a break line styling */
+  br {
+    clear: both;
+    line-height: 1px;
+  }
+  
